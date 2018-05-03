@@ -115,12 +115,12 @@ section.secText p {
    box-sizing: border-box
 }
 /* style the container */
-.container {
+/*.container {
     position: relative;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px 0 30px 0;
-}
+}*/
 
 input, .btn {
     width: 100%;
@@ -348,4 +348,14 @@ input[type=submit]:hover {
  .pokemon-button.pokeimg-three {
      width: 240px;
      margin-top: 40px;
+}
+
+
+
+
+
+
+.progress {height: 40px !important;
+            margin: 9px;
+
 }
