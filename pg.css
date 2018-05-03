@@ -92,6 +92,72 @@ section.secText h1 {
 section.secText p {
     font-size: 20px;
 }
+/* pokemon buttons shake */
+.pokemon-button {
+
+}
+.pokeimg-one {
+    animation: shake 5s infinite;
+
+}
+.pokeimg-two {
+    animation: shake 5s infinite;
+    animation-delay: .4s;
+}
+.pokeimg-three {
+    animation: shake 5s infinite;
+    animation-delay: .8s;
+}
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) 
+        rotate(0deg);
+    }
+    5% {
+        transform: translate(-1px, -2px)
+        rotate(-1deg);
+    }
+    10% {
+        transform: translate(-3px, 0px)
+        rotate(1deg);
+    }
+    15% {
+        transform: translate(3px, 2px)
+        rotate(0deg);
+    }
+    20% {
+        transform: translate(1px, -1px)
+        rotate(1deg);
+    }
+    30% {
+        transform: translate(-1px, 2px)
+        rotate(-1deg);
+    }
+    40% {
+        transform: translate(-3px, 1px)
+        rotate(0deg);
+    }
+    45% {
+        transform: translate(3px, 1px)
+        rotate(-1deg);
+    }
+    50% {
+        transform: translate(-1px, -1px)
+        rotate(1deg);
+    }
+    55% {
+        transform: translate(1px, 2px)
+        rotate(0deg);
+    }
+    60% {
+        transform: translate(1px, -2px)
+        rotate(-1deg);
+    }
+    61% {
+        transform: translate(1px, 1px)
+        rotate(0deg);
+    }
+}
 /* columas */
 .column{
     float: left;
