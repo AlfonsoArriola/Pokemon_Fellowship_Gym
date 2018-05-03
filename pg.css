@@ -1,12 +1,15 @@
 #mySidenav a {
     position: fixed;
-    left: -100px;
+
+    left: -310px;
     transition: 0.3s;
     padding: 15px;
-    width: 110px;
+    width: 320px;
     text-decoration: none;
     font-size: 20px;
     color: white;
+    background-color: rgba(255, 255, 255, .4);
+
     border-radius: 0 5px 5px 0;
 }
 #mySidenav a:hover {
@@ -45,7 +48,10 @@ section{
     box-sizing: border-box;
 }
 section.sec1 {
-    background: url("https://upload.wikimedia.org/wikipedia/commons/9/9c/Dunder_Mifflin%2C_Inc.svg");
+
+    background: url("img/theOneRing.gif");
+    background-size: 300px 300px;
+
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
