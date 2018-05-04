@@ -1,9 +1,9 @@
 let targetOffset,
     body = document.body,
-    aboutButton = document.getElementById('about'),
-    productButton = document.getElementById('product'),
-    teamButton = document.getElementById('teams'),
-    contactButton = document.getElementById('contact'),
+    t1btnButton = document.getElementById('t1btn'),
+    t2btnButton = document.getElementById('t2btn'),
+    t3btnButton = document.getElementById('t3btn'),
+    t4btnButton = document.getElementById('t4btn'),
     animateTime = 900;
 
 function onSideNavClick(event) {
@@ -23,10 +23,10 @@ function onSideNavClick(event) {
   event.preventDefault();
 }
 
-aboutButton.addEventListener('click', onSideNavClick, false);
-productButton.addEventListener('click', onSideNavClick, false);
-teamButton.addEventListener('click', onSideNavClick, false);
-contactButton.addEventListener('click', onSideNavClick, false);
+t1btnButton.addEventListener('click', onSideNavClick, false);
+t2btnButton.addEventListener('click', onSideNavClick, false);
+t3btnButton.addEventListener('click', onSideNavClick, false);
+t4btnButton.addEventListener('click', onSideNavClick, false);
 
 /*Scroll to top*/
 window.onscroll = function() {scrollFunction()};
