@@ -1,19 +1,19 @@
 #mySidenav a {
-    position: fixed;
-
-    left: -310px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 320px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    background-color: rgba(255, 255, 255, .4);
-
-    border-radius: 0 5px 5px 0;
+  position: fixed;
+  left: -310px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 320px;
+  height: 85px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #515151;
+  background-color: rgba(255, 255, 255, .8);
+  border-radius: 0 5px 5px 0;
+  z-index: 9999;
 }
 #mySidenav a:hover {
-    left: 0;
+  left: 0;
 }
 #about {
   top: 30%;
@@ -48,10 +48,8 @@ section{
     box-sizing: border-box;
 }
 section.sec1 {
-
     background: url("img/theOneRing.gif");
     background-size: 300px 300px;
-
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -59,20 +57,21 @@ section.sec1 {
     zoom: 1.5;
 }
 section.sec2 {
-    background: url("/Users/erisayperez/Desktop/untitled folder/Pokemon_Fellowship_Gym/img/11.jpg");
+    background: url("img/11.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
 }
 section.sec3 {
-    background: url("/Users/erisayperez/Desktop/untitled folder/Pokemon_Fellowship_Gym/img/22.jpg");
+
+    background: url("img/22.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 section.sec4 {
-    background: url("/Users/erisayperez/Desktop/untitled folder/Pokemon_Fellowship_Gym/img/33.jpg");
+    background: url("img/33.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
