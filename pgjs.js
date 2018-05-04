@@ -58,7 +58,7 @@ $(document).ready(function() {
     $("#poke-trainer").html(myTrainer.trainername);
 
     function onPokemonClicked(clickEvent) {
-        myTrainer.get(event.target.id);
+        myTrainer.get(clickEvent.target.id);
     }
 
     $('.pokemon-button').click(onPokemonClicked);
