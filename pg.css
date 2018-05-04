@@ -100,11 +100,11 @@ section.secText p {
 }
 /* pokemon buttons shake */
 .pokemon-button {
-
+  max-width: 200px;
+  max-height: 200px
 }
 .pokeimg-one {
     animation: shake 5s infinite;
-
 }
 .pokeimg-two {
     animation: shake 5s infinite;
