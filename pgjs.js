@@ -61,39 +61,6 @@ let defenseBarWidth = [];
         }
 
 
-        all(myUrl) {
-
-            $.ajax({
-                method: "GET",
-                url: "https://pokeapi.co/api/v2/pokemon/1",
-                success: function(data) {
-                    $("#poke-img1").attr("src", data.sprites.front_default);
-                }
-            });
-
-            $.ajax({
-                method: "GET",
-                url: "https://pokeapi.co/api/v2/pokemon/2",
-                success: function(data) {
-                    $("#poke-img2").attr("src", data.sprites.front_default);
-
-                }
-            });
-
-            $.ajax({
-                method: "GET",
-                url: "https://pokeapi.co/api/v2/pokemon/3",
-                success: function(data) {
-                    $("#poke-img3").attr("src", data.sprites.front_default);
-
-                }
-            });
-
-
-
-
-
-
 
         }
 
