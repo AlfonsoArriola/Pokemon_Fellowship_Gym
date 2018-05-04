@@ -1,10 +1,5 @@
 $(document).ready(function() {
 
-
-let hpBarWidth = [];
-let attackBarWidth = [];
-let defenseBarWidth = [];
-
     class Trainer {
         constructor() {
             this.trainername = '_';
@@ -44,14 +39,6 @@ let defenseBarWidth = [];
                             abilities.push(data.abilities[i].ability.name + " ");
                         }
                         $("#poke-abilities").html(abilities);
-
-                      hpBarWidth = $("#poke-hp").html(data.stats[5].base_stat);
-                      attackBarWidth = $("#poke-attack").html(data.stats[4].base_stat);
-                      defenseBarWidth = $("#poke-defense").html(data.stats[3].base_stat);  
-
-                        $("#poke-hp").css('width', "#poke-hp");
-                        $("#poke-attack").css('width', "#poke-attack");
-                        $("#poke-defense").css('width', "#poke-defense");
 
                     }
                 });
