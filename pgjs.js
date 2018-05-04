@@ -65,8 +65,6 @@ let defenseBarWidth = [];
         }
 
 
-    }
-
     let myTrainer = new Trainer;
 
 
