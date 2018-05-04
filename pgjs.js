@@ -1,13 +1,23 @@
 $(document).ready(function() {
 
 
+let hpBarWidth = [];
+let attackBarWidth = [];
+let defenseBarWidth = [];
+
     class Trainer {
         constructor() {
-            this.trainername = 'Juanito Perez';
+            this.trainername = '_';
             this.pokemons = {
                 bulbasaur: undefined,
                 charmander: undefined,
                 squirtle: undefined,
+                throh: undefined,
+                litten: undefined,
+                tyrunt: undefined,
+                larvitar: undefined,
+                vulpix: undefined,
+                mewtwo: undefined,
             };
 
         }
@@ -35,6 +45,14 @@ $(document).ready(function() {
                         }
                         $("#poke-abilities").html(abilities);
 
+                      hpBarWidth = $("#poke-hp").html(data.stats[5].base_stat);
+                      attackBarWidth = $("#poke-attack").html(data.stats[4].base_stat);
+                      defenseBarWidth = $("#poke-defense").html(data.stats[3].base_stat);  
+
+                        $("#poke-hp").css('width', "#poke-hp");
+                        $("#poke-attack").css('width', "#poke-attack");
+                        $("#poke-defense").css('width', "#poke-defense");
+
                     }
                 });
             }
@@ -43,33 +61,6 @@ $(document).ready(function() {
         }
 
 
-        all(myUrl) {
-
-            $.ajax({
-                method: "GET",
-                url: "https://pokeapi.co/api/v2/pokemon/1",
-                success: function(data) {
-                    $("#poke-img1").attr("src", data.sprites.front_default);
-                }
-            });
-
-            $.ajax({
-                method: "GET",
-                url: "https://pokeapi.co/api/v2/pokemon/2",
-                success: function(data) {
-                    $("#poke-img2").attr("src", data.sprites.front_default);
-
-                }
-            });
-
-            $.ajax({
-                method: "GET",
-                url: "https://pokeapi.co/api/v2/pokemon/3",
-                success: function(data) {
-                    $("#poke-img3").attr("src", data.sprites.front_default);
-
-                }
-            });
 
         }
 
