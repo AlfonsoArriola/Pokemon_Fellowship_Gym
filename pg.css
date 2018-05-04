@@ -22,22 +22,22 @@
 #mySidenav a:hover {
   left: 0;
 }
-#about {
+#t1btn {
   top: 30%;
   left: 30%;
   background-color: grey;
 }
-#product {
+#t2btn {
   top: 40%;
   left: 40%;
   background-color: grey;
 }
-#teams {
+#t3btn {
   top: 50%;
   left: 50%;
   background-color: grey;
 }
-#contact {
+#t4btn {
   top: 60%;
   left: 60%;
   background-color: grey;
