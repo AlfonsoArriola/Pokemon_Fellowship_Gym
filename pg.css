@@ -59,20 +59,20 @@ section.sec1 {
     zoom: 1.5;
 }
 section.sec2 {
-    background: url("/Users/erisayperez/Desktop/untitled folder/Pokemon_Fellowship_Gym/11.jpg");
+    background: url("/Users/erisayperez/Desktop/untitled folder/Pokemon_Fellowship_Gym/img/11.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
 }
 section.sec3 {
-    background: url("/Users/erisayperez/Desktop/untitled folder/Pokemon_Fellowship_Gym/22.jpg");
+    background: url("/Users/erisayperez/Desktop/untitled folder/Pokemon_Fellowship_Gym/img/22.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 section.sec4 {
-    background: url("/Users/erisayperez/Desktop/untitled folder/Pokemon_Fellowship_Gym/11.jpg");
+    background: url("/Users/erisayperez/Desktop/untitled folder/Pokemon_Fellowship_Gym/img/33.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
