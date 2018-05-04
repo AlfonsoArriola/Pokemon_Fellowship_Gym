@@ -98,6 +98,12 @@ section.secText h1 {
 section.secText p {
     font-size: 20px;
 }
+
+/* trainer img */
+.trainerImg {
+  max-height: 200px;
+}
+
 /* pokemon buttons shake */
 .pokemon-button {
   max-width: 200px;
